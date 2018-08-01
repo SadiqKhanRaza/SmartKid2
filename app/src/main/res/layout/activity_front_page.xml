@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/front"
+    android:background="@drawable/bgblur"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+
+
+        android:layout_width="168dp"
+
+        android:layout_height="144dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/kidsmartz_fb2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/start"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/btn"
+        android:text="Start"
+        android:textColor="#ffff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sound"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/btn"
+        android:text="off music"
+        android:padding="5dp"
+        android:textColor="#ffff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+
+        android:id="@+id/abt"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/btn"
+        android:text="about"
+        android:textColor="#ffff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/follow"
+        android:layout_height="46dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/ssss2"
+        android:textColor="#ffff"
+        android:textSize="24sp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

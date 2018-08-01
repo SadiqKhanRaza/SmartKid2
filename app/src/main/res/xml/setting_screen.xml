@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference android:persistent="true"
+        android:entries="@array/background"
+        android:title="Background"
+        android:key="settings_quiz_background"
+        android:summary="Choose One of these as background"
+        android:defaultValue="true"
+        android:entryValues="@array/background" />
+    <ListPreference
+        android:persistent="true"
+        android:entries="@array/fonts"
+        android:title="Fonts"
+        android:key="settings_quiz_font"
+        android:summary="Choose font for quiz"
+        android:defaultValue="true"
+        android:entryValues="@array/fonts_values" />
+</PreferenceScreen>

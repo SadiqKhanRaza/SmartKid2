@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/spring"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="match_parent" android:layout_height="match_parent">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton android:textSize="30sp"
+        android:id="@+id/c1"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Wild Animals" />
+    <RadioButton
+        android:textSize="30sp"
+        android:id="@+id/c2"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Pet Animals" />
+    <RadioButton
+        android:textSize="30sp"
+        android:id="@+id/c3"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Fruits" />
+    <RadioButton
+        android:textSize="30sp"
+        android:id="@+id/c4"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Flowers" />
+</RadioGroup>
+<Button
+    android:textSize="24sp"
+    android:textColor="#ffff"
+    android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+    android:id="@+id/play"
+    android:background="@drawable/btn"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:text="Play" />
+</LinearLayout>
+
+</LinearLayout>
